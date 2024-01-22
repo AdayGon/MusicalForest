@@ -9,10 +9,37 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 7ae03fc163a270944ae9eff60e6bcf27
+  - enabled: 1
+    path: Assets/Scenes/Partida.unity
+    guid: 5bc39246974c19c44abd8257814cca7c
+  - enabled: 1
+    path: Assets/Scenes/Opciones.unity
+    guid: dc8e05fb9ae82e44e9b8d2e1de1fd652
+  - enabled: 1
     path: Assets/Scenes/Mundo.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
     path: Assets/Scenes/Nivel.unity
     guid: 3697425ec9e5f284a98f7c11c7cf65a5
+  - enabled: 1
+    path: Assets/Scenes/IniciarSesion.unity
+    guid: a2dc7bc521d393e4bb00658049241d94
+  - enabled: 1
+    path: Assets/Scenes/Usuario.unity
+    guid: 3e42f8bea4e668c42930fc9f2c61ab0f
+  - enabled: 1
+    path: Assets/Scenes/Password.unity
+    guid: 3de2ace36b62aa74383e3d0e090aa351
+  - enabled: 1
+    path: Assets/Scenes/Recuperar.unity
+    guid: 03ec8d715fc1af9429a0430ef41d8398
+  - enabled: 1
+    path: Assets/Scenes/Registro.unity
+    guid: d5be6c1c37377ba46aa7beaf3acd823f
+  - enabled: 1
+    path: Assets/Scenes/Registro2.unity
+    guid: 411620a62bfc9104295b0dbd965279bf
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9c771996119c89740b9bed233a9bde61, type: 2}
