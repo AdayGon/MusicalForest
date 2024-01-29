@@ -5,6 +5,9 @@ using UnityEngine;
 public class MovimientoPersonaje : MonoBehaviour
 {
     public float velocidadMovimiento = 5f;
+    public string sceneName;
+    public Canvas canvasSuperposicion;
+    public AudioSource audioSource;
 
     private void Update()
     {
@@ -35,6 +38,8 @@ public class MovimientoPersonaje : MonoBehaviour
 
         // Puedes agregar aquí cualquier lógica adicional cuando el personaje llega al destino
         Debug.Log("Personaje ha llegado al destino");
+        canvasSuperposicion.gameObject.SetActive(true);
+        
     }
 }
 
