@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6036379412599993560}
   - component: {fileID: 6036379412599993564}
   - component: {fileID: -8342156989445287046}
-  - component: {fileID: -8738104410383692351}
+  - component: {fileID: -8074891184586846812}
   m_Layer: 0
   m_Name: Limon
   m_TagString: Untagged
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9a239abe34a1784ba5c798a0e5ea1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &-8738104410383692351
+--- !u!82 &-8074891184586846812
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,8 +165,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cfd449e797c1d2343a7b688a2b6ead17, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 7f24cf4ddc8bd8340bfdd5c06472ff56, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

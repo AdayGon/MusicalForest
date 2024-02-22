@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class DisappearOnClick : MonoBehaviour
 {
+    private AudioSource audioSource;
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -19,9 +25,10 @@ public class DisappearOnClick : MonoBehaviour
                 {
                     // Ocultar el objeto
                     gameObject.SetActive(false);
+                    audioSource.Play();
 
 
-                }
+            }
             }
         
     }
