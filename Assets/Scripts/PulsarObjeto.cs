@@ -8,7 +8,12 @@ public class PulsarObjeto : MonoBehaviour
 {
     public string sceneName;
     public Canvas canvasSuperposicion;
-    public AudioSource audioSource;
+    public GameObject fuenteSonido;
+    private AudioSource audioSource;
+    private void Start()
+    {
+        audioSource = fuenteSonido.GetComponent<AudioSource>();
+    }
 
     private void OnMouseDown()
     {
