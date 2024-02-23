@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class AudioManagerScript : MonoBehaviour
 {
@@ -9,8 +8,7 @@ public class AudioManagerScript : MonoBehaviour
     private static AudioManagerScript _instance;
     public static AudioManagerScript Instance { get { return _instance; } }
 
-    public AudioSource audioSource;
-    private bool musicStarted = false;
+    public AudioSource backgroundMusic;
 
     void Awake()
     {
@@ -26,23 +24,22 @@ public class AudioManagerScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Start()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
 
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    // Método para reproducir la música de fondo
+    public void PlayBackgroundMusic()
     {
-        // Aquí puedes cambiar la música según la escena
-        PlayMusicForScene(scene.name);
-    }
-
-    void PlayMusicForScene(string sceneName)
-    {
-        if (sceneName == "Nivel")
+        if (!backgroundMusic.isPlaying)
         {
-            // Aquí establece la música para la escena 1
-            audioSource.Stop();
+            backgroundMusic.Play();
+        }
+    }
+
+    // Método para detener la música de fondo
+    public void StopBackgroundMusic()
+    {
+        if (backgroundMusic.isPlaying)
+        {
+            backgroundMusic.Stop();
         }
     }
 }
