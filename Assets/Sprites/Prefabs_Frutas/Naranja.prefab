@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 610cc67a31c88314b8f9d49c0df4193d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBound: 3
+  topBound: 10
   lowerbound: -12
   gameOver: {fileID: 0}
 --- !u!114 &1786161597526104570
