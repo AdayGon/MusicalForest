@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Nivel
+  - Fruta
+  - Limite
   layers:
   - Default
   - TransparentFX

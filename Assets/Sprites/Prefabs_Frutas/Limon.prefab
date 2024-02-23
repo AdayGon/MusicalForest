@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -8074891184586846812}
   m_Layer: 0
   m_Name: Limon
-  m_TagString: Untagged
+  m_TagString: Limite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +31,8 @@ Transform:
   m_GameObject: {fileID: 6036379412599993561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.5773, y: 2.14, z: -3.25}
-  m_LocalScale: {x: 0.3011, y: 0.3011, z: 0.3011}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.42, y: 0.42, z: 0.42}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.07107389, y: -0.08528876}
@@ -167,7 +167,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7f24cf4ddc8bd8340bfdd5c06472ff56, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.625
   m_Pitch: 1
   Loop: 0
   Mute: 0
