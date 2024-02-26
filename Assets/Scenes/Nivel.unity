@@ -1231,8 +1231,8 @@ MonoBehaviour:
   - {fileID: 2142944209840756944, guid: cca2b1f7b2f2d534f97cda69f2706296, type: 3}
   - {fileID: 9105447856816730106, guid: 1f2ee86312529254785ac6b8242d29fc, type: 3}
   - {fileID: 6036379412599993561, guid: 3f0845893d5dec94cb90e78057edae35, type: 3}
-  spawnRangeX: 2
-  spawnRangeY: 2
+  spawnRangeX: 8.13
+  spawnRangeY: 7.23
   startDelay: 2
   spawnInterval: 1.5
   FrutaIndex: 0
