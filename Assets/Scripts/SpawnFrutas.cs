@@ -31,7 +31,7 @@ public class SpawnFrutas : MonoBehaviour
     }
     private void SpawnRandomFruta()
     {
-        Vector2 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnRangeY);
+        Vector2 spawnPos = new Vector2(Random.Range(-spawnRangeX, spawnRangeX), spawnRangeY);
         int animalIndex = Random.Range(1, FrutaPrefabs.Length); // genera animalIndex en funcion del numero de Prefabs
         Instantiate(FrutaPrefabs[animalIndex], spawnPos, FrutaPrefabs[animalIndex].transform.rotation); //instancia un animal
     }
