@@ -42,4 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Registro2.unity
     guid: 411620a62bfc9104295b0dbd965279bf
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: fb2d37a34a97250449114e5ac7bc37ae, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 93005f32276cfad42be997c28d0aee1f, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8047c2f754d26574da28f1f71db824e7, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9c771996119c89740b9bed233a9bde61, type: 2}
